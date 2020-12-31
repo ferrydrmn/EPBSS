@@ -1,0 +1,58 @@
+.title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.tombol-management{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tombol-insert, .tombol-hapus{
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.tombol-insert{
+    background-color: #48dbfb;
+}
+
+.kecil{
+    padding: 8px;
+}
+
+.tombol-hapus{
+    background-color: red;
+}
+
+.informasi-rumah{
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.informasi-rumah td, .informasi-rumah th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.informasi-rumah tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.informasi-rumah th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: orange;
+    color: white;
+}
+
+.nama-properti{
+    color: blue;
+    cursor: pointer;
+}
